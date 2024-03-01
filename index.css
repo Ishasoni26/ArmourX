@@ -1,10 +1,10 @@
 .SOC-logo-footer{
-  width: 120px;
-  height: 120px;
+  width:7rem;
+  height: 7rem;
 }
 .ISO-logo-footer{
-  width: 120px;
-  height: 120px;
+  width: 7rem;
+  height: 7rem;
 }
 .footer-box {
   width: 60%;
@@ -14,7 +14,7 @@
   height: auto;
 }
 .armourX{
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 .accordian-row{
@@ -87,7 +87,10 @@ transition: all 0.3s;
 transform: scale(1.1);
 }
 .card-services {
- width: 37%;
+ flex-basis: 36%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
  height: auto;
 }
 .card-service{
@@ -176,6 +179,7 @@ transform: scale(1.1);
   text-align: justify;
   text-justify: inter-word;
 }
-.card-container-3{
-  margin: 0.5rem;
+.list-unstyled{
+  width: 30%;
 }
+

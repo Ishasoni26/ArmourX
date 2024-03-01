@@ -5775,10 +5775,44 @@
       justify-content: center;
     }
     .card-services{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .container{
+      max-width: 1024px;
+    }
+    .footer-box{
+      width: 120%;
+    }
+    .middle-box{
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
+      padding: 5%;
     }
+  .list-unstyled{
+    margin-top: 50px;
+  }
+  h1,p{
+    padding: 0px 15px;
+  }
+  .img-fluid{
+    margin-bottom: 2rem;
+    width: 85%;
+    
+  }
+  .card-container-4{
+    flex-direction: column;
+  }
+  .flex-box{
+    flex-direction: column;
+  }
+  .contact-btn{
+    display: flex;
+    align-self: start;
+  }
+ 
   
   }
   @media (max-width: 767.98px) {

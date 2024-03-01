@@ -4,17 +4,15 @@ img{
  
 }
 .container{
-  max-width: 1200px;
-  
- 
+  max-width: 1024px;
 }
 
 .logo-heading{
-font-size: 30px;
+font-size: 2rem;
 font-weight: 500;
 text-align: center;
 position: relative;
-margin-bottom: 60px;
+
 }
 .logo-heading::after{
   content: '';
@@ -22,7 +20,7 @@ margin-bottom: 60px;
 width: 100px;
 height: 4px;
 background-color:#ff8159 ;
-bottom: -20px;
+/* bottom: -20px; */
 left: 0;
 right: 0;
 margin: 0 auto;
@@ -58,7 +56,7 @@ color: #2f3f9f;
   color: #2f3f9f;
 }
 .item{
-  width: 80%;
+  width: 60%;
 }
 .slick-prev:before{
   font-size: 40px;
