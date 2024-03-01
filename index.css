@@ -1,0 +1,181 @@
+.SOC-logo-footer{
+  width: 120px;
+  height: 120px;
+}
+.ISO-logo-footer{
+  width: 120px;
+  height: 120px;
+}
+.footer-box {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+.armourX{
+  width: 100%;
+  height: 100%;
+}
+.accordian-row{
+  padding: 6% 6%;
+  background-color: #fff;
+}
+.bg-pink{
+  background-color:#fcf6f0;
+}
+.flex-box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  
+}
+.text-center{
+  text-align: center !important;
+}
+
+
+.card-container-3{
+  display: flex;
+  justify-content: space-between;
+}
+.card-design{
+flex-basis: 30%;
+margin: 1rem;
+
+}
+.icon-img{
+  width: 50%;
+  height: auto;
+}
+.bg-blue{
+background-color:#f2fafa;
+}
+.ul-box{
+  position: relative;
+}
+.ul-box >span{
+  position: absolute;
+  width: 95px;
+  background-color: #2f3f9f;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  transition: .5s;
+}
+.pd-30{
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.img-services{
+  width: 180px;
+  height: 180px;
+  
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+transition: all 0.3s;
+}
+.card:hover{
+transform: scale(1.1);
+}
+.card-services {
+ width: 37%;
+ height: auto;
+}
+.card-service{
+  width: 100%;
+  height: auto;
+  
+}
+.pd-25{
+  padding: 10px;
+}
+.middle-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.display-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-icon{
+  width: 100%;
+}
+.contact-btn{
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  color: #2f3f9f;
+  
+  border: 2px solid #2f3f9f;
+  outline: none;
+  position: relative;
+  top: 1.5rem;
+  left: 7rem;
+  
+}
+.contact-btn:hover{
+  color:#ffffff ;
+  background: #2f3f9f;
+}
+.position-absolute{
+  position: absolute;
+}
+.container-4{
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-img{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container-4{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+.conatiner-services{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-1{
+  width: 400px;
+ height: 500px;
+ border-radius: 2rem;
+
+ 
+}
+.card-2{
+  width: 400px;
+  height: 650px;
+  border-radius: 2rem;
+ 
+
+}
+.accordion-body{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.card-container-3{
+  margin: 0.5rem;
+}
