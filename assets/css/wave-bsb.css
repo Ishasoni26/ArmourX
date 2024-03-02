@@ -5812,6 +5812,9 @@
     display: flex;
     align-self: start;
   }
+  .card-icon{
+    width: 60%;
+  }
  
   
   }
